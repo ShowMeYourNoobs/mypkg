@@ -1,5 +1,11 @@
-package main
+package mypkg
 
-func main() {
+import (
+	"fmt"
+	"mypkg/inner"
+)
 
+func MyPkg() {
+	fmt.Println("mypkg")
+	inner.InnerFunc()
 }
