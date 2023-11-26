@@ -9,3 +9,4 @@ func MyPkg() {
 	fmt.Println("mypkg")
 	inner.InnerFunc()
 }
+
