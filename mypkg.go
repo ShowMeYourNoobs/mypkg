@@ -16,6 +16,8 @@ func main() {
 
 	fmt.Println("2")
 	fmt.Println("3")
+	fmt.Println("4")
+	fmt.Println("5")
 
 	fmt.Println("start loop")
 	for i := 0; i < 3; i++ {
