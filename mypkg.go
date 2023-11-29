@@ -8,10 +8,12 @@ import (
 func main() {
 	fmt.Println("mypkg")
 	inner.InnerFunc()
+
 	shouldPrint1 := false
 	if shouldPrint1 {
 		fmt.Println("1")
 	}
+
 	fmt.Println("2")
 	fmt.Println("3")
 
