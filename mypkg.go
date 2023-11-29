@@ -5,8 +5,6 @@ import (
 	"mypkg/inner"
 )
 
-var shouldPrint2 bool = false
-
 func main() {
 	fmt.Println("mypkg")
 	inner.InnerFunc()
@@ -16,9 +14,8 @@ func main() {
 		fmt.Println("1")
 	}
 
-	if shouldPrint2 {
-		fmt.Println("2")
-	}
+	fmt.Println("2")
+
 	fmt.Println("3")
 	fmt.Println("4")
 	fmt.Println("5")
