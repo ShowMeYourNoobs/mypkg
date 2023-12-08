@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println("mypkg")
+	fmt.Println("mypkg app")
 	inner.InnerFunc()
 
 	shouldPrint1 := false
