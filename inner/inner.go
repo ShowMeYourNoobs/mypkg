@@ -3,5 +3,5 @@ package inner
 import "fmt"
 
 func InnerFunc() {
-	fmt.Println("inner")
+	fmt.Println("inner func")
 }
