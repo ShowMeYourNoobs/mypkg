@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"mypkg/inner"
+
+	"github.com/ShowMeYourNoobs/mypkg/inner"
 )
 
 func CallInner() {
