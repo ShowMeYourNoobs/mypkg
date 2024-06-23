@@ -7,10 +7,10 @@ import (
 )
 
 func CallInner() {
-	fmt.Println("Calling inner func v1.0.0")
+	fmt.Println("Calling inner func v1.0.1")
 	inner.InnerFunc()
 }
 
 func CallFunc() {
-	fmt.Println("Main func  v1.0.0")
+	fmt.Println("Main func  v1.0.1")
 }

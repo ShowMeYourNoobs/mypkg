@@ -3,5 +3,5 @@ package inner
 import "fmt"
 
 func InnerFunc() {
-	fmt.Println("Inner func  v1.0.0")
+	fmt.Println("Inner func  v1.0.1")
 }
